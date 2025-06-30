@@ -1,0 +1,7 @@
+<suite name="Parallel Suite" parallel="classes" thread-count="4">
+    <test name="Parallel Tests">
+        <classes>
+            <class name="runner.TestNGCucumberRunner"/>
+        </classes>
+    </test>
+</suite>
